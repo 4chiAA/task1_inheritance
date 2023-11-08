@@ -5,16 +5,16 @@ public class Car extends Vehicle {
     int numberDoors;
 
 
-    public void showInformation(){
+    public void showInformation() {
         System.out.println("producer: " + producer + ", model: " + model + ", year of construction: " + constructionYear + ", number of doors: " + numberDoors);
     }
 
-    public Car(){
+    public Car() {
 
     }
 
     // Die super()-Methode ermöglicht den Aufruf des Konstruktors der Elternklasse
-    public Car(String producer, String model, int constructionYear, int numberDoors){
+    public Car(String producer, String model, int constructionYear, int numberDoors) {
         super(producer, model, constructionYear);
         this.numberDoors = numberDoors;
     }

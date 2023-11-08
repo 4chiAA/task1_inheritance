@@ -21,7 +21,5 @@ public class Main {
         motorcycle1.showInformation();
 
 
-
-
     }
 }

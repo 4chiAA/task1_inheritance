@@ -6,18 +6,19 @@ public class Vehicle {
     String model;
     int constructionYear;
 
-    public void showInformation(){
-        System.out.println("producer: " + producer + ", model: " + model + ", year of construction: " + constructionYear);
-    }
 
-    public Vehicle(){
+    public Vehicle() {
 
     }
 
-    public Vehicle(String producer, String model, int constructionYear){
+    public Vehicle(String producer, String model, int constructionYear) {
         this.producer = producer;
         this.model = model;
         this.constructionYear = constructionYear;
+    }
+
+    public void showInformation() {
+        System.out.println("producer: " + producer + ", model: " + model + ", year of construction: " + constructionYear);
     }
 
     public String getProducer() {

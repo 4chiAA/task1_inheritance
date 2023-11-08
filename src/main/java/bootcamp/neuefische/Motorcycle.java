@@ -1,12 +1,12 @@
 package bootcamp.neuefische;
 
-public class Motorcycle extends Vehicle{
+public class Motorcycle extends Vehicle {
 
     int noiseLevel;
     int range;
     String type;
 
-    public Motorcycle(){
+    public Motorcycle() {
 
     }
 
@@ -16,7 +16,7 @@ public class Motorcycle extends Vehicle{
     }
 
     // Mit super() hat man auch Zugriff auf die Methoden der Elternklasse
-    public void showInformation(){
+    public void showInformation() {
         super.showInformation();
         System.out.println("type: " + type);
     }
